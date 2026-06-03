@@ -3,7 +3,7 @@ export const portfolioConfig = {
   name: "Victor Maina",
   title: "Software Developer",
   description:
-    "Aspiring Software Developer with a strong foundation in front-end and back-end development, gained through an intensive software engineering program. Proficient in full-stack technologies and eager to contribute to innovative projects in a dynamic work environment.",
+    "Software Developer with a strong foundation in front-end and back-end development, gained through an intensive software engineering program. Proficient in full-stack technologies and eager to contribute to innovative projects in a dynamic work environment.",
   location: "Nairobi, Kenya",
 
   // Contact Information
