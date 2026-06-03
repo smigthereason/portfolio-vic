@@ -20,7 +20,7 @@ export const portfolioConfig = {
 
   // SEO Information – replace with your actual portfolio URL
   seo: {
-    url: "https://victormaina.dev", // CHANGE THIS to your real domain
+    url: "https://vercel.com/victor-mainas-projects/portfolio-vic-2m5e", // CHANGE THIS to your real domain
     ogImage:
       "https://github.com/smigthereason/portfolio-vic/blob/main/public/image.png",
     twitterHandle: "@SmigDs",
