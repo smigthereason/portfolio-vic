@@ -1,78 +1,65 @@
 export const portfolioConfig = {
   // Basic Information
-  name: "Md Taqui Imam",
-  title: "Software Engineer",
-  description: "I am a Passionate Software Developer",
-  location: "Ramgarh cantt, Jharkhand, India",
+  name: "Victor Maina",
+  title: "Software Developer",
+  description:
+    "Aspiring Software Developer with a strong foundation in front-end and back-end development, gained through an intensive software engineering program. Proficient in full-stack technologies and eager to contribute to innovative projects in a dynamic work environment.",
+  location: "Nairobi, Kenya",
 
   // Contact Information
-  email: "taquiimam@example.com", // Replace with actual email if available
+  email: "victor.dmaina@gmail.com",
 
-  // Social Media Links
+  // Social Media Links – UPDATED with Facebook and Twitter
   socialLinks: {
-    facebook: "https://www.facebook.com/shahina.khatun.1044",
-    twitter: "https://twitter.com/md_taqui_imam",
-    linkedin: "https://www.linkedin.com/in/taqui-imam",
-    external: "https://tinyurl.com/MdTaquiImam",
-    github: "https://github.com/taqui-786", // Assuming this is the GitHub link
+    linkedin: "https://www.linkedin.com/in/victor-dmaina",
+    github: "https://github.com/smigthereason",
+    facebook: "https://www.facebook.com/share/1EHadZwrdb/",
+    twitter: "https://x.com/SmigDs",
+    external: "https://www.sunkova.com/team",
   },
 
-  // SEO Information
+  // SEO Information – replace with your actual portfolio URL
   seo: {
-    ogImage: "https://mdtaquiimam.vercel.app/og-image.png",
-    url: "https://mdtaquiimam.vercel.app",
-    twitterHandle: "@md_taqui_imam",
+    url: "https://victormaina.dev", // CHANGE THIS to your real domain
+    ogImage: "https://victormaina.dev/og-image.png",
+    twitterHandle: "@SmigDs",
     keywords: [
-      "md",
-      "taqui",
-      "imam",
-      "Md",
-      "MD",
-      "TAQUI",
-      "Taqui",
-      "Imam",
-      "Imam",
-      "Md Taqui Imam",
-      "md taqui imam",
-      "mdtaqui",
-      "mdtaquiimam",
-      "taqui imam",
-      "Taqui Imam",
-      "Taquiimam",
+      "victor",
+      "maina",
+      "Victor Maina",
+      "software developer",
+      "full stack developer",
+      "frontend",
+      "backend",
       "portfolio",
-      "web developer",
-      "web",
       "web dev",
-      "developer",
-      "PROGRAMMER ",
-      "programmer ",
-      "MD TAQUI IMAM ",
-      "website",
-      "@Taquiimam",
-      "Taquiimam",
-      "taqui developer",
+      "Nairobi",
+      "sunkova",
+      "daima mkenya africa",
+      "cryptkeep",
+      "titern concrete",
     ],
     authors: [
       {
-        name: "Taqui Imam",
-        url: "https://github.com/taqui-786",
+        name: "Victor Maina",
+        url: "https://github.com/smigthereason",
       },
     ],
   },
 
   // About Information
   about: {
-    bio: "I am a Full Stack Web Developer from Ramgarh cantt, Jharkhand, India. I'm passionate about crafting web projects and contributing to open-source communities. I specialize in modern JavaScript frameworks and responsive CSS design, focusing on creating pixel-perfect, user-friendly interfaces. With strong attention to detail and efficient delivery, I build seamless web experiences that combine functionality with elegant design.",
+    bio: "Aspiring Software Developer with a strong foundation in front-end and back-end development, gained through an intensive software engineering program. Proficient in full-stack technologies and eager to contribute to innovative projects in a dynamic work environment.",
     hobbies: [
-      "Coding",
-      "Playing Games",
-      "Watching Anime",
-      "Tech Blog Writing",
-      "Creating Cool Projects",
+      "Music Production (FL Studio)",
+      "High-Intensity Interval Training (HIIT)",
+      "Open-Source Contributing",
+      "UI/UX Designing",
+      "Body Recomposition Training",
     ],
     personalInfo: {
-      language: "English UK",
-      nationality: "India",
+      language: "English",
+      nationality: "Kenya",
       gender: "Male",
     },
   },
@@ -80,23 +67,13 @@ export const portfolioConfig = {
   // Skills and Roles
   skills: {
     roles: [
-      "Freelancer",
-      "Blogger",
-      "Gamer",
-      "Creator",
-      "Student",
-      "Contributer",
+      "Software Developer",
+      "Front-End Developer",
+      "Back-End Developer",
+      "Scrum Master",
+      "Open Source Contributor",
     ],
-    // Technical Skills
     programmingLanguages: [
-      {
-        name: "HTML5",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-      },
-      {
-        name: "CSS3",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-      },
       {
         name: "JavaScript",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
@@ -106,16 +83,16 @@ export const portfolioConfig = {
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
       },
       {
-        name: "C++",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
-      },
-      {
         name: "Python",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
       },
       {
-        name: "Java",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+        name: "HTML5",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      },
+      {
+        name: "CSS3",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
       },
     ],
     frameworks: [
@@ -128,24 +105,28 @@ export const portfolioConfig = {
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
       },
       {
-        name: "Vue.js",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+        name: "React Native",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       },
       {
-        name: "Svelte",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg",
+        name: "Angular",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
       },
       {
         name: "Tailwind CSS",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
       },
       {
-        name: "Bootstrap",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+        name: "Flask",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
       },
       {
-        name: "Material UI",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
+        name: "Node.js",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+      },
+      {
+        name: "Express.js",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
       },
     ],
     tools: [
@@ -158,170 +139,169 @@ export const portfolioConfig = {
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
       },
       {
-        name: "VS Code",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
-      },
-      {
         name: "Docker",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
       },
       {
-        name: "Firebase",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+        name: "Supabase",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg",
+      },
+      {
+        name: "PostgreSQL",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
       },
       {
         name: "MongoDB",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
       },
       {
-        name: "PostgreSQL",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+        name: "Sanity CMS",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sanity/sanity-original.svg",
       },
     ],
   },
 
-  // Education Information
+  // Education Information – MATCHES YOUR CV + University + High School
   education: [
     {
-      degree: "Bachelor of Computer Application",
-      institution: "Ranchi University Jharkhand",
-      location: "Doranda College Ranchi",
-      period: "July 2023 - 2026",
+      degree: "Software Engineering Program",
+      institution: "Moringa School",
+      location: "Nairobi, Kenya",
+      period: "Feb 2024 – July 2024",
       description:
-        "I am currently Studying Bachelor of Computer Application form Doranda College Ranchi a Goverment College of Ranchi. The program has provided me with a well-rounded education, covering both theoretical foundations and practical applications of computer science.",
+        "Intensive full-stack software engineering training covering front-end and back-end development, algorithms, architectural principles, and database setups.",
+    },
+    {
+      degree: "Bachelor of Science in Project Management",
+      institution: "Jomo Kenyatta University of Agriculture and Technology",
+      location: "Juja, Kenya",
+      period: "2018 – 2022",
+      description:
+        "Focused on project planning, management methodologies, and strategic execution.",
+    },
+    {
+      degree: "Kenya Certificate of Secondary Education (KCSE)",
+      institution: "Nairobi School",
+      location: "Nairobi, Kenya",
+      period: "2014 – 2017",
+      description:
+        "Completed high school education with a strong foundation in academics and leadership.",
     },
   ],
 
-  // Projects Information
+  // Experience Information – MATCHES YOUR CV
+  experience: [
+    {
+      role: "Software Engineer (Contract)",
+      company: "Qonverso",
+      location: "Remote",
+      period: "Feb 2025 – Present",
+      description:
+        "Assisted in developing dynamic and responsive web applications using Vite, Angular, and TypeScript, ensuring high performance and scalability. Designed and implemented chatbots to enhance user engagement and automate customer support processes. Mapped and executed user journeys to streamline interactions and improve overall user experience. Integrated data collection mechanisms to gather actionable insights and support data-driven decision-making. Enhanced CSS styling across applications to ensure a modern, intuitive, and visually appealing interface. Collaborated with cross-functional teams to deliver projects aligned with business objectives and technical requirements.",
+    },
+    {
+      role: "Class Representative & Scrum Master",
+      company: "Moringa School",
+      location: "Nairobi, Kenya",
+      period: "Feb 2024 – Aug 2024",
+      description:
+        "Liaised between students and instructors to facilitate effective communication. Led Agile-based teams, managing sprint planning and retrospectives.",
+    },
+    {
+      role: "Sound Engineer",
+      company: "Igiza Arts, Kenya National Theatre",
+      location: "Nairobi, Kenya",
+      period: "2020 – 2021",
+      description:
+        "Managed sound equipment and ensured high-quality audio in live performances.",
+    },
+  ],
+
+  // Projects – FROM YOUR CV + YOUR PERSONAL ADDITIONS (Daima Mkenya, CryptKeep, Titern, etc.)
   projects: [
     {
-      title: "WePost- A modern, minimalistic social platform.",
+      title: "Daima Mkenya Africa",
       description:
-        "WePost is a modern, minimalistic social platform for sharing posts, like, follow, and engaging in comments etc.",
-      tags: ["Tanstack-Query", "PostgreSQL", "Shadcn Ui", "Nextjs"],
-      link: "https://we-post-dev.vercel.app",
+        "An elegant, high-end luxury heritage fashion platform with complex e-commerce logic, customized backend architecture, and a highly polished UI.",
+      tags: ["Next.js", "Sanity CMS", "Tailwind CSS", "TypeScript"],
+      link: "https://daimamkenyaafrica.com",
     },
     {
-      title: "Devzone- A community chat app for devs",
+      title: "CryptKeep",
       description:
-        "DevZone is the ultimate chat platform for developers to connect, collaborate, and code together. Join the conversation and level up your coding journey.",
-      tags: ["Zustand", "Supabase", "Shadcn Ui", "Nextjs"],
-      link: "https://devzone-ti.vercel.app/",
+        "A highly secure digital estate vault and automated protocol application engineered to protect digital assets with automated inheritance logic and FaceID validation.",
+      tags: ["React Native", "Supabase", "TypeScript", "FaceID Integration"],
+      link: "",
     },
     {
-      title: "itZmyLink- One Page many Links",
+      title: "Titern Concrete Solutions",
       description:
-        "itZmyLink is a simple platform where user can create a personalized page to showcase all your social media profiles in one place. ",
-      tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/itZmyLink",
+        "An optimized web application for a major Kenyan precast concrete manufacturing company, featuring service interfaces and inventory grids.",
+      tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
+      link: "https://titern.vercel.app/",
     },
     {
-      title: "GitEstimate- Github estimate worth generator",
+      title: "Omega (Online Gaming Platform)",
       description:
-        "GitEstimate is a simple fun tool where user can generate their github estimate worth card just by entering their github username. ",
-      tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/GitEstimate",
+        "Full-stack digital application for user registration, competitive gaming modules, and real-time community engagement.",
+      tags: ["React", "Flask", "PostgreSQL", "SQLAlchemy"],
+      link: "",
     },
     {
-      title: "Mixcn-ui- Reusable components for Nextjs",
+      title: "Kindr (Automated Charity Donation App)",
       description:
-        "This is Nextjs app with a Collection of Nextjs Components - (Currently under Devlelopment) ",
-      tags: ["Nextjs", "Shadcnui", "Npx", "Library"],
-      link: "https://mixcn-ui.vercel.app",
+        "Integrated automated charitable system utilizing smooth transactional API layers to direct custom funding pipelines to target causes.",
+      tags: ["React", "Flask", "Payment API", "PostgreSQL"],
+      link: "",
     },
     {
-      title: "Rupeespot- All deals Product in one place",
+      title: "TuneStream (Spotify Clone)",
       description:
-        "This is a free tool to check price history charts for millions of products for popular Indian stores such as Amazon and Flipkart. ",
-      tags: ["Nextjs", "Freelancing", "MySQL"],
-      link: "https://rupeespot.com/",
+        "Immersive audio streaming platform with modular UI design, interactive media queues, and a flexible decoupled database collection schema.",
+      tags: ["React", "Flask", "MongoDB"],
+      link: "",
     },
     {
-      title: "Formcraft- Build Type-Safe Forms with Zero Effort",
+      title: "Passionate Angles",
       description:
-        "Create production-ready forms with Zod validation, React Hook Form, and TypeScript. Design, customize, and deploy in minutes.",
-      tags: ["Nextjs", "Shadcnui", "Zod", "React Hook Form "],
-      link: "https://formcraft-ti.vercel.app/",
+        "Accessible React-based website for an elderly home, focusing on usability and inclusive design.",
+      tags: ["React", "CSS3", "Accessibility"],
+      link: "",
     },
     {
-      title: "KryptoKapital- Investing in Cryptocurreny",
+      title: "Animeverse",
       description:
-        "This is a platform for learning about cryptocurrency with many tools and festures. It is very big project. ",
-      tags: ["Nextjs", "Freelancing", "Supabase"],
-      link: "https://pro.kryptokapital.info/",
+        "Feature-rich manga and anime aggregation platform fetching from public datasets to sort, search, and map dynamic catalog views.",
+      tags: ["React", "RESTful APIs", "Axios", "CSS3"],
+      link: "",
     },
     {
-      title: "FriendZ - A social media Platform",
+      title: "CleanHub",
       description:
-        "FriendZ is a social media app made with modern tech stacks such as redis, Authjs etc. A user can Create, delete, like, comment Post. ",
-      tags: ["Redis", "Authjs", "Typescript", "Nextjs"],
-      link: "https://github.com/taqui-786/project-friendz",
-    },
-    {
-      title: "ChatApp- Simple instagram clone",
-      description:
-        "ChatApp is similar to instagram, you can create, edit, delete, like,comment, post and  Follow, unfollow users",
-      tags: ["Reactjs", "Javascript"],
-      link: "https://github.com/taqui-786/chatapp-api",
-    },
-    {
-      title: "Devletter - A Newsletter for devs",
-      description:
-        "Devletter ia a newsletter subscribing single page app made with Nextjs and Tailwindcss.",
-      tags: ["Nextjs", "Tailwindcss"],
-      link: "https://github.com/taqui-786/Devletter",
-    },
-    {
-      title: "CrouMaker - A Crousal Maker App",
-      description:
-        "Crousal Maker is a tool with in-built crousals templates edit and download it in any format.",
-      tags: ["Nextjs", "jsPDF", "html2canvas", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/crousal-maker",
+        "Laundry business website built with HTML, CSS, and React to showcase services and enable contact.",
+      tags: ["React", "HTML5", "CSS3"],
+      link: "",
     },
   ],
 
-  // More Links Information
+  // More Links / Partnerships
   moreLinks: [
     {
-      title: "Dev.to",
+      title: "Sunkova Corporate Hub",
       description:
-        "I write blogs on web development, trending tech stacks or javascript guide or tips in Dev.to ",
-      link: "https://dev.to/random_ti",
+        "Explore innovative professional technical systems built across our core engineering teams.",
+      link: "https://www.sunkova.com/team",
     },
     {
-      title: "Hashnode",
+      title: "SoundCloud Production Feed",
       description:
-        "I write blogs on web development, trending tech stacks or javascript guide or tips in Hashnode",
-      link: "https://mdtaquiimam.hashnode.dev/",
-    },
-    {
-      title: "Medium",
-      description:
-        "I write blogs on web development, trending tech stacks or javascript guide or tips in Medium",
-      link: "https://medium.com/@mdtaqui.jhar",
-    },
-    {
-      title: "Daily.Dev",
-      description:
-        "I am also the member of Daily Dev squads and i also upload post on some squads.",
-      link: "https://app.daily.dev/taqui_786",
-    },
-    {
-      title: "Gumroad",
-      description:
-        "I also sell digital products on gumroad like Notion Templates and web projects etc.",
-      link: "https://mdtaquijhar.gumroad.com/",
-    },
-    {
-      title: "Buy Me a coffee",
-      description:
-        "Supports my content quality, new topics, and project creation.",
-      link: "https://www.buymeacoffee.com/taquidevloper",
+        "Showcasing professional music composition, beat arrangements, and audio designs engineered inside FL Studio.",
+      link: "",
     },
   ],
 
-  // API Keys (should be in .env but referenced here)
+  // API Keys / System Setup
   apiKeys: {
-    resendApiKey: "YOUR_RESEND_API_KEY", // This should be loaded from environment variables in a real app
+    resendApiKey: "YOUR_RESEND_API_KEY",
   },
 };

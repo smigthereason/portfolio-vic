@@ -14,43 +14,50 @@ import { portfolioConfig } from "@/config/portfolio.config";
 const SocialLinks = () => {
   const links = [
     {
+      name: "LinkedIn",
+      link: portfolioConfig.socialLinks?.linkedin,
+      icon: <Linkedin />,
+    },
+    {
+      name: "GitHub",
+      link: portfolioConfig.socialLinks?.github,
+      icon: <Github />,
+    },
+    {
       name: "Facebook",
-      link: portfolioConfig.socialLinks.facebook,
+      link: portfolioConfig.socialLinks?.facebook,
       icon: <Facebook />,
     },
     {
       name: "Twitter",
-      link: portfolioConfig.socialLinks.twitter,
+      link: portfolioConfig.socialLinks?.twitter,
       icon: <Twitter />,
     },
     {
-      name: "Linkedin",
-      link: portfolioConfig.socialLinks.linkedin,
-      icon: <Linkedin />,
-    },
-    {
       name: "External",
-      link: portfolioConfig.socialLinks.external,
+      link: portfolioConfig.socialLinks?.external,
       icon: <ExternalLink />,
     },
-    {
-      name: "Github",
-      link: portfolioConfig.socialLinks.github,
-      icon: <Github />,
-    },
   ];
+
   return (
     <>
       {links.map((itm, indx) => {
         const timing = 0.55 + indx * 0.125;
 
+        const safeLink =
+          itm.link && typeof itm.link === "string" && itm.link.trim() !== ""
+            ? itm.link.trim()
+            : "#";
+
         return (
           <FramerWrapper key={indx} delay={timing} y={50}>
             <Link
-              target="blank"
-              href={itm.link}
+              target={safeLink === "#" ? "_self" : "_blank"}
+              rel="noopener noreferrer"
+              href={safeLink}
               className={cn(
-                buttonVariants({ variant: "outline", size: "icon" })
+                buttonVariants({ variant: "outline", size: "icon" }),
               )}
             >
               {itm.icon}

@@ -23,26 +23,23 @@ export const metadata: Metadata = {
     template: `%s - ${portfolioConfig.title}`,
   },
   description: portfolioConfig.description,
-
-  // added new keywords for seo
   keywords: portfolioConfig.seo.keywords,
   authors: portfolioConfig.seo.authors,
   creator: portfolioConfig.name,
-
   openGraph: {
     type: "website",
     locale: "en_US",
     url: portfolioConfig.seo.url,
     title: portfolioConfig.name,
     description: portfolioConfig.description,
-    images: [`${portfolioConfig.seo.url}/og-image.png`],
+    images: [portfolioConfig.seo.ogImage], // Fixed: absolute URL already
     siteName: portfolioConfig.name,
   },
   twitter: {
     card: "summary_large_image",
     title: portfolioConfig.name,
     description: portfolioConfig.description,
-    images: [`${portfolioConfig.seo.url}/og-image.png`],
+    images: [portfolioConfig.seo.ogImage],
     creator: portfolioConfig.seo.twitterHandle,
   },
   icons: {
@@ -56,15 +53,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`${poppins.variable} ${rubik.variable}`}>
         <main
           className={cn(
-            "flex  relative  break-words h-dvh min-h-screen items-center justify-between pt-14 pb-4 px-40 max-md:p-4 bg-transparent max-sm:pt-20 bg-[radial-gradient(#2f7df4_1px,transparent_1px)] [background-size:16px_16px]",
-            { "bg-white": "#E6E7EB" }
+            "flex relative break-words h-dvh min-h-screen items-center justify-between pt-14 pb-4 px-40 max-md:p-4 bg-transparent max-sm:pt-20 bg-[radial-gradient(#2f7df4_0.4px,transparent_.9px)] [background-size:14px_14px]",
+            // Removed broken dynamic class { "bg-white": "#E6E7EB" }
           )}
         >
-          {/* NAVBAR ->  */}
           <Navbar />
           {children}
         </main>
