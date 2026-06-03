@@ -21,7 +21,8 @@ export const portfolioConfig = {
   // SEO Information – replace with your actual portfolio URL
   seo: {
     url: "https://victormaina.dev", // CHANGE THIS to your real domain
-    ogImage: "https://victormaina.dev/og-image.png",
+    ogImage:
+      "https://github.com/smigthereason/portfolio-vic/blob/main/public/image.png",
     twitterHandle: "@SmigDs",
     keywords: [
       "victor",
