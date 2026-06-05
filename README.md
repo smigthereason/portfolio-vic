@@ -2,7 +2,7 @@
 
 A modern, responsive, and beautiful portfolio website built with Next.js 15, TypeScript, Tailwind CSS, and Shadcn UI. It features smooth animations, a clean design, and a fully configurable data structure.
 
-![Demo](https://github.com/smigthereason/portfolio-vic/blob/main/public/image.png)
+![Demo](https://github.com/smigthereason/portfolio-vic/blob/main/public/og-image.png)
 
 ## Features
 
