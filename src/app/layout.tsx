@@ -10,6 +10,7 @@ const poppins = Poppins({
   weight: "400",
   variable: "--font-poppins",
 });
+
 const rubik = Rubik({
   subsets: ["latin"],
   weight: "600",
@@ -17,6 +18,7 @@ const rubik = Rubik({
 });
 
 export const metadata: Metadata = {
+  // Next.js automatically combines this base URL with relative asset paths below
   metadataBase: new URL(portfolioConfig.seo.url),
   title: {
     default: portfolioConfig.name,
@@ -32,14 +34,22 @@ export const metadata: Metadata = {
     url: portfolioConfig.seo.url,
     title: portfolioConfig.name,
     description: portfolioConfig.description,
-    images: [portfolioConfig.seo.ogImage], // Fixed: absolute URL already
+    // Files in /public are served from the root. If your file is /public/og-image.jpg, use '/og-image.jpg'
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: `${portfolioConfig.name} Portfolio Preview`,
+      },
+    ],
     siteName: portfolioConfig.name,
   },
   twitter: {
     card: "summary_large_image",
     title: portfolioConfig.name,
     description: portfolioConfig.description,
-    images: [portfolioConfig.seo.ogImage],
+    images: ["/og-image.png"], // Next.js resolves this to an absolute URL via metadataBase
     creator: portfolioConfig.seo.twitterHandle,
   },
   icons: {
@@ -54,11 +64,19 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${poppins.variable} ${rubik.variable}`}>
+      <body
+        className={`${poppins.variable} ${rubik.variable}`}
+        suppressHydrationWarning
+      >
         <main
           className={cn(
-            "flex relative break-words h-dvh min-h-screen items-center justify-between pt-14 pb-4 px-40 max-md:p-4 bg-transparent max-sm:pt-20 bg-[radial-gradient(#2f7df4_0.4px,transparent_.9px)] [background-size:14px_14px]",
-            // Removed broken dynamic class { "bg-white": "#E6E7EB" }
+            "flex relative min-h-screen items-center justify-between",
+            "pt-14 pb-4",
+            "px-6 md:px-10 lg:px-16 xl:px-24",
+            "bg-[url('/89787.jpg')]",
+            "bg-cover bg-center bg-no-repeat",
+            "before:absolute before:inset-0 before:z-0",
+            "relative z-10",
           )}
         >
           <Navbar />

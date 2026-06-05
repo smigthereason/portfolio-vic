@@ -4,10 +4,10 @@ import { portfolioConfig } from "@/config/portfolio.config";
 function TextRotator() {
   return (
     <div className="py-4 rounded-md flex justify-center items-center overflow-hidden">
-      <div className="font-poppins text-base sm:text-2xl text-gray-700 flex flex-row items-center flex-wrap justify-center sm:justify-start gap-x-2">
+      <div className="font-poppins text-base sm:text-2xl text-white flex flex-row items-center flex-wrap justify-center sm:justify-start gap-x-2">
         {/* Static text - kept on one line */}
         <span className="whitespace-nowrap">
-          I am a {portfolioConfig.title} &amp;
+          I am a {portfolioConfig.title} &
         </span>
 
         {/* Rotating text - clipped window */}

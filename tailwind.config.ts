@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: ["class"],
+  // Removed darkMode key to completely strip out dark/light variant triggers
   content: [
     "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",

@@ -1,42 +1,44 @@
 import { cn } from "@/lib/utils";
-import {
-  Facebook,
-  Linkedin,
-  Twitter,
-  ExternalLink,
-  Github,
-} from "lucide-react";
 import { buttonVariants } from "./ui/button";
 import Link from "next/link";
 import FramerWrapper from "./animation/FramerWrapper";
 import { portfolioConfig } from "@/config/portfolio.config";
+
+// React Icons
+import {
+  FaLinkedin,
+  FaGithub,
+  FaFacebook,
+  FaTwitter,
+  FaExternalLinkAlt,
+} from "react-icons/fa";
 
 const SocialLinks = () => {
   const links = [
     {
       name: "LinkedIn",
       link: portfolioConfig.socialLinks?.linkedin,
-      icon: <Linkedin />,
+      icon: <FaLinkedin className="h-5 w-5" />,
     },
     {
       name: "GitHub",
       link: portfolioConfig.socialLinks?.github,
-      icon: <Github />,
+      icon: <FaGithub className="h-5 w-5" />,
     },
     {
       name: "Facebook",
       link: portfolioConfig.socialLinks?.facebook,
-      icon: <Facebook />,
+      icon: <FaFacebook className="h-5 w-5" />,
     },
     {
       name: "Twitter",
       link: portfolioConfig.socialLinks?.twitter,
-      icon: <Twitter />,
+      icon: <FaTwitter className="h-5 w-5" />,
     },
     {
       name: "External",
       link: portfolioConfig.socialLinks?.external,
-      icon: <ExternalLink />,
+      icon: <FaExternalLinkAlt className="h-5 w-5" />,
     },
   ];
 
@@ -58,7 +60,9 @@ const SocialLinks = () => {
               href={safeLink}
               className={cn(
                 buttonVariants({ variant: "outline", size: "icon" }),
+                "text-[#2f7df4]",
               )}
+              aria-label={itm.name}
             >
               {itm.icon}
             </Link>

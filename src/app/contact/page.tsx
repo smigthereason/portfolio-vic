@@ -7,7 +7,7 @@ import { Phone } from "lucide-react";
 const contactPage = () => {
   return (
     <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden px-4 sm:px-6 lg:px-0">
-      <Badge variant="secondary" className="gap-1.5 py-1">
+      <Badge variant="secondary" className="gap-1.5 py-1 p-2">
         <Phone className="h-4 w-4" />
         Contact Us
       </Badge>
