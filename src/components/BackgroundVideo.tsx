@@ -16,6 +16,7 @@ export default function BackgroundVideo() {
     <>
       {/* Background Video */}
       <video
+        preload="auto"
         ref={videoRef}
         autoPlay
         loop

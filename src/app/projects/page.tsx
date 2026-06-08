@@ -594,6 +594,7 @@ const ProjectsPage = () => {
                       fill
                       className="object-contain object-top"
                       unoptimized
+                      priority
                     />
                     <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent h-20" />
                     <p className="absolute bottom-4 left-4 right-4 text-xs text-white/80 tracking-wide line-clamp-1">
@@ -616,6 +617,7 @@ const ProjectsPage = () => {
                             fill
                             className="object-contain"
                             unoptimized
+                            priority
                           />
                         </div>
                       ))}
