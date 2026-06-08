@@ -73,28 +73,7 @@ export const portfolioConfig = {
       "Scrum Master",
       "Open Source Contributor",
     ],
-    programmingLanguages: [
-      {
-        name: "JavaScript",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-      },
-      {
-        name: "TypeScript",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-      },
-      {
-        name: "Python",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-      },
-      {
-        name: "HTML5",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-      },
-      {
-        name: "CSS3",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-      },
-    ],
+
     frameworks: [
       {
         name: "React",
@@ -178,14 +157,6 @@ export const portfolioConfig = {
       period: "2018 – 2022",
       description:
         "Focused on project planning, management methodologies, and strategic execution.",
-    },
-    {
-      degree: "Kenya Certificate of Secondary Education (KCSE)",
-      institution: "Nairobi School",
-      location: "Nairobi, Kenya",
-      period: "2014 – 2017",
-      description:
-        "Completed high school education with a strong foundation in academics and leadership.",
     },
   ],
 

@@ -49,9 +49,10 @@
 .name_underline::after {
     content: "";
     display: block;
+    margin-top: 5px;
     width: 6rem;
     height: 0.6rem;
-    background-color: hsl(var(--primary-sky));
+    background: linear-gradient(90deg, hsl(var(--primary-sky)) 0%, #1d4ed8 50%);
 }
 .icon_underline::after {
     content: "";

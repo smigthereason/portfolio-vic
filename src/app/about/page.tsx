@@ -127,7 +127,7 @@ const AboutPage = () => {
       </div>
 
       {/* Hobbies / Interests Section */}
-      <FramerWrapper className="block w-full mt-2" y={40} delay={0.3}>
+      <FramerWrapper className="block w-full mt-8" y={40} delay={0.3}>
         <div className="flex flex-col gap-6">
           <h2 className="gap-2.5 text-xl sm:text-2xl font-poppins text-primary font-semibold flex items-center group">
             <Heart className="h-5 w-5 sm:h-6 sm:w-6 text-primary-sky animate-pulse" />
@@ -156,12 +156,12 @@ const AboutPage = () => {
       </FramerWrapper>
 
       {/* Education Section */}
-      <FramerWrapper className="w-full mt-2" y={0} x={-100}>
+      <FramerWrapper className="w-full mt-8" y={0} x={-100}>
         <EducationComponent education={education} />
       </FramerWrapper>
 
       {/* Skills Section — Passing the raw configuration structure cleanly */}
-      <FramerWrapper className="w-full mt-2" y={0} x={-100}>
+      <FramerWrapper className="w-full mt-8" y={0} x={-100}>
         <SkillPageComponent skills={skills} />
       </FramerWrapper>
     </div>
