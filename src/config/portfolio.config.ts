@@ -271,7 +271,7 @@ export const portfolioConfig = {
       subtitle: "Industrial Enterprise Platform",
       description:
         "An optimized web application for a major Kenyan precast concrete manufacturing company, featuring service interfaces and inventory grids.",
-      image: "/assets/titern-1.png",
+      image: "/assets/Titern-1.png",
       imagePlaceholderText:
         "Titern Concrete Manufacturing Catalog & Geometric Layout Display",
       walkthrough: {
