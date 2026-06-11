@@ -1,9 +1,11 @@
+// // src/app/layout.tsx
 // import type { Metadata } from "next";
 // import { Poppins, Rubik } from "next/font/google";
 // import "./globals.css";
 // import { cn } from "@/lib/utils";
 // import Navbar from "@/components/Navbar";
 // import { portfolioConfig } from "@/config/portfolio.config";
+// import BackgroundVideo from "@/components/BackgroundVideo"; // ← New client component
 
 // const poppins = Poppins({
 //   subsets: ["latin"],
@@ -18,7 +20,6 @@
 // });
 
 // export const metadata: Metadata = {
-//   // Next.js automatically combines this base URL with relative asset paths below
 //   metadataBase: new URL(portfolioConfig.seo.url),
 //   title: {
 //     default: portfolioConfig.name,
@@ -34,7 +35,6 @@
 //     url: portfolioConfig.seo.url,
 //     title: portfolioConfig.name,
 //     description: portfolioConfig.description,
-//     // Files in /public are served from the root. If your file is /public/og-image.jpg, use '/og-image.jpg'
 //     images: [
 //       {
 //         url: "/og-image.jpg",
@@ -49,7 +49,7 @@
 //     card: "summary_large_image",
 //     title: portfolioConfig.name,
 //     description: portfolioConfig.description,
-//     images: ["/og-image.png"], // Next.js resolves this to an absolute URL via metadataBase
+//     images: ["/og-image.png"],
 //     creator: portfolioConfig.seo.twitterHandle,
 //   },
 //   icons: {
@@ -73,12 +73,10 @@
 //             "flex relative min-h-screen items-center justify-between",
 //             "pt-14 pb-4",
 //             "px-6 md:px-10 lg:px-16 xl:px-24",
-//             "bg-[url('/89787.jpg')]",
-//             "bg-cover bg-center bg-no-repeat",
-//             "before:absolute before:inset-0 before:z-0",
-//             "relative z-10",
+//             "relative z-10 overflow-hidden",
 //           )}
 //         >
+//           <BackgroundVideo />
 //           <Navbar />
 //           {children}
 //         </main>
@@ -86,14 +84,13 @@
 //     </html>
 //   );
 // }
-// src/app/layout.tsx
 import type { Metadata } from "next";
 import { Poppins, Rubik } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
 import { portfolioConfig } from "@/config/portfolio.config";
-import BackgroundVideo from "@/components/BackgroundVideo"; // ← New client component
+import ThreeCanvasWrapper from "@/components/ThreeCanvasWrapper";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -164,7 +161,7 @@ export default function RootLayout({
             "relative z-10 overflow-hidden",
           )}
         >
-          <BackgroundVideo />
+          <ThreeCanvasWrapper />
           <Navbar />
           {children}
         </main>
