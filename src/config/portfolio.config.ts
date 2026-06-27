@@ -224,7 +224,7 @@ export const portfolioConfig = {
         ],
       },
       tags: ["Next.js", "Sanity CMS", "Tailwind CSS", "TypeScript"],
-      link: "https://daimamkenyaafrica.com",
+      link: "https://daima-mkenya-update.vercel.app",
       github: "",
     },
 
