@@ -192,6 +192,59 @@ export const portfolioConfig = {
   // Insert this enriched layout into your portfolio.config.ts project array
   projects: [
     {
+      title: "Savannah Retreats Africa",
+      subtitle: "Luxury Kenyan Safari & Travel Platform",
+      description:
+        "A premium travel and safari platform designed to showcase private, fully guided journeys across Kenya, featuring safari packages, destinations, lodges, cultural experiences, galleries, and trip enquiry functionality.",
+      image: "/assets/Savannah.png",
+      imagePlaceholderText:
+        "Savannah Retreats Africa - Luxury Kenyan Safari & Travel Experience",
+
+      walkthrough: {
+        mission:
+          "The objective was to create a premium digital experience that presents Kenya as a world-class safari destination while making it easy for international travelers to explore destinations, accommodation, cultural experiences, and customized safari packages.",
+
+        deepDive:
+          "The platform was designed around immersive destination storytelling, strong visual presentation, structured safari package discovery, and a streamlined travel enquiry experience. Visitors can explore Kenya's major destinations, discover lodges and camps, learn about local culture, browse safari experiences, and submit trip details directly through the website.",
+      },
+
+      metrics: {
+        timeline: "Ongoing",
+        role: "Lead Web Developer / UI Designer",
+        category: "Travel & Tourism / Hospitality",
+      },
+
+      caseStudy: {
+        challenge:
+          "Creating a high-end safari website capable of presenting large amounts of destination, accommodation, wildlife, and cultural content without overwhelming travelers while maintaining a premium visual identity.",
+
+        solution:
+          "Built a structured content experience combining destination discovery, safari packages, accommodation showcases, visual galleries, cultural information, and trip enquiry flows into a cohesive responsive travel platform.",
+
+        architecture: [
+          "Responsive Web Architecture",
+          "Content Management System",
+          "Dynamic Safari Package Pages",
+          "Destination & Accommodation Content",
+          "Trip Enquiry & Booking Forms",
+          "SEO-Optimized Content Structure",
+        ],
+      },
+
+      tags: [
+        "Web Development",
+        "Travel",
+        "Tourism",
+        "Responsive Design",
+        "CMS",
+        "SEO",
+      ],
+
+      link: "https://www.savannahretreatsafrica.com/",
+      github: "",
+    },
+
+    {
       title: "Daima Mkenya Africa",
       subtitle: "Luxury Heritage Fashion Platform",
       description:
@@ -199,22 +252,28 @@ export const portfolioConfig = {
       image: "/assets/Daima.png",
       imagePlaceholderText:
         "Daima Mkenya Digital Experience Layout Preview [4K Responsive Mockup]",
+
       walkthrough: {
         mission:
           "The objective was to design and deploy an elite digital flagship for East African luxury heritage fashion. The system needed to feel like a high-end physical atelier—breathing minimalist luxury aesthetics while managing heavy global transactions, instant currency translation filters, and real-time inventory management.",
+
         deepDive:
           "To realize this, I architected a decoupled headless ecosystem. By building custom GROQ queries inside Sanity CMS, the application pulls rich asset-heavy datasets seamlessly. Next.js App Router serves as the structural framework, relying on selective Incremental Static Regeneration (ISR) to keep stock lists updated across global edge endpoints without resetting user cart states or breaking page session memory.",
       },
+
       metrics: {
         timeline: "3 Months",
         role: "Lead Engineer / UI Designer",
         category: "E-Commerce / Headless Architecture",
       },
+
       caseStudy: {
         challenge:
           "Balancing image-heavy premium content with high performance on variable mobile speeds across regional hubs, alongside highly structured product dynamic states.",
+
         solution:
           "Implemented strict Next.js Image optimization routines, edge-cached Sanity data queries using custom GROQ schemas, and decoupled micro-state components using atomic layout layouts.",
+
         architecture: [
           "Next.js (App Router)",
           "Sanity Headless CMS",
@@ -223,10 +282,14 @@ export const portfolioConfig = {
           "Edge Data Caching Architecture",
         ],
       },
+
       tags: ["Next.js", "Sanity CMS", "Tailwind CSS", "TypeScript"],
-      link: "https://daima-mkenya-update.vercel.app",
+
+      link: "https://daimamkenya.com/",
       github: "",
     },
+
+    // SubZero continues here...
 
     // ==================== NEW PROJECT: SUBZERO ====================
     {
