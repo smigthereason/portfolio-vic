@@ -20,7 +20,7 @@ export const portfolioConfig = {
 
   // SEO Information – replace with your actual portfolio URL
   seo: {
-    url: "https://vercel.com/victor-mainas-projects/portfolio-vic-2m5e", // CHANGE THIS to your real domain
+    url: "https://portfolio-vic-beta.vercel.app",
     ogImage:
       "https://github.com/smigthereason/portfolio-vic/blob/main/public/image.png",
     twitterHandle: "@SmigDs",
@@ -37,6 +37,7 @@ export const portfolioConfig = {
       "Nairobi",
       "sunkova",
       "daima mkenya africa",
+      "decor by kasiwa",
       "cryptkeep",
       "titern concrete",
     ],
@@ -286,6 +287,71 @@ export const portfolioConfig = {
       tags: ["Next.js", "Sanity CMS", "Tailwind CSS", "TypeScript"],
 
       link: "https://daimamkenya.com/",
+      github: "",
+    },
+
+
+    {
+      title: "Decor by Kasiwa",
+      subtitle: "E-Commerce, POS & Retail Operations Platform",
+      description:
+        "A full-stack home decor commerce platform combining a customer-facing online store with a custom POS, inventory management, staff administration, fulfilment workflows, reporting, and operational tooling for a growing Kenyan retail business.",
+      image: "/assets/decor-by-kasiwa-1.png",
+      imagePlaceholderText:
+        "Decor by Kasiwa - E-Commerce Store, POS & Retail Operations Dashboard",
+
+      walkthrough: {
+        mission:
+          "The objective was to build a unified digital commerce and retail operations platform that could support both online customers and in-store staff from one system. The platform needed to handle product discovery, checkout, inventory, POS sales, staff permissions, fulfilment operations, customer accounts, reporting, and day-to-day retail administration without relying on multiple disconnected tools.",
+
+        deepDive:
+          "I developed the platform with Next.js and TypeScript using Sanity as the headless content and operational data layer. The system includes a responsive customer storefront, product and category management, retail and wholesale pricing, customer authentication, Paystack-powered e-commerce checkout, a custom in-store POS, role-based staff access, production-to-packaging-to-delivery workflows, staff activity auditing, sales reporting, inventory movements, order management, and SMTP-based transactional account emails. The architecture separates customer commerce from back-office operations while allowing both to share a consistent product, order, and inventory model.",
+      },
+
+      metrics: {
+        timeline: "Ongoing",
+        role: "Full Stack Developer / Systems Designer",
+        category: "E-Commerce / Retail Operations",
+      },
+
+      caseStudy: {
+        challenge:
+          "The business required more than a standard online shop: it needed one platform capable of supporting customer purchases, physical-store sales, inventory control, staff responsibilities, fulfilment handoffs, reporting, and secure administration while remaining simple enough for non-technical staff to use.",
+
+        solution:
+          "Built a unified commerce architecture with separate customer and back-office experiences, server-authoritative pricing and inventory logic, granular role and operational permissions, automated fulfilment workflows, responsive POS interfaces, staff session and activity tracking, and Sanity-backed administration. The result is a single operational platform that connects the storefront, sales floor, staff, inventory, and order fulfilment process.",
+
+        architecture: [
+          "Next.js (App Router)",
+          "TypeScript",
+          "Sanity Headless CMS",
+          "Tailwind CSS",
+          "NextAuth Authentication",
+          "Paystack E-Commerce Payments",
+          "Custom POS & Inventory System",
+          "Role-Based Access Control",
+          "Fulfilment Workflow Automation",
+          "SMTP Transactional Email",
+          "Vercel Deployment",
+          "M-PESA/STK Push",
+        ],
+      },
+
+      tags: [
+        "Next.js",
+        "TypeScript",
+        "Sanity CMS",
+        "Tailwind CSS",
+        "E-Commerce",
+        "POS",
+        "Inventory",
+        "RBAC",
+        "Workflow Automation",
+        "Paystack",
+        "M-PESA/STK Push",
+      ],
+
+      link: "https://www.decorbykasiwa.co.ke/",
       github: "",
     },
 
